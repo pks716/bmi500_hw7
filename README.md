@@ -1,7 +1,7 @@
 # Name: Peeyush Kumar Singh
 # Email: peeyush.singh@emory.edu
 # Question No: HW1
-# AI Statement: No generative AI (in any form) has been used to complete this homework.”
+# AI Statement: No generative AI (in any form) has been used to complete this homework.
 # Disclosure: Grammarly was used to correct the grammar of the discussion. Use of Google search is also disclosed in relevant sections. Lastly, the expanded list of references is given below. I read and incorporated a few of their techniques.
 ## https://ieeexplore.ieee.org/document/9619963
 ## https://arxiv.org/abs/2003.11371
