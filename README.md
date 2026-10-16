@@ -234,4 +234,13 @@ Both seem have a big and almost equal effect, but gamma is actually stronger. My
 
 **gamma = medical treatment.** Gamma is how fast infected people stop being infectious. Better treatment, faster testing and isolating sick people (so they stop spreading sooner) increase gamma in practice. In the plots, raising gamma means moving right. From the Part D values, raising gamma above about 0.24 brings R0 below 1.
 
+# Hypothesis revisited
 
+**(i) Peak in Part B: partly supported.**
+I guessed the peak around day 35-40 with about 1200 infected and 800 healthy. The peak came at about day 43, a bit later than I guessed, because the early growth slowed down sooner than my simple doubling estimate. The 800 healthy at the peak was right (S = gamma / beta = 800). But 1200 was the total number infected so far (sick + recovered), not the number sick at the same time. Only about 470 people were sick at the peak.
+
+**(ii) Waves in Part D: supported.**
+I expected several waves that get smaller, because births keep adding new susceptible people. The simulation showed this: a big first wave (about 318 at day 62), then smaller waves about every 290 days, settling at about 53 infected.
+
+**(iii) beta vs gamma in Part E: rejected.**
+I expected beta to affect the peak more. Changing either one by 2.5 times gave a big and almost equal drop in the peak (13 for beta, 9 for gamma), so gamma was actually slightly stronger. I did not think about the fact that a higher gamma also makes people sick for a shorter time, so fewer are sick at the same moment.
